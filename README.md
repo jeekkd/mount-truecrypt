@@ -30,3 +30,22 @@ sudo bash mount_truecrypt.sh
 > 
 > - You may need to open your file manager as root to have full access to the mounted container.
 > - Make sure you have cryptsetup, most distributions will have this but check just encase.
+
+Additionally here is how you can add the script to be globally callable from anywhere. This is super convenient 
+since you can merely type something such as the following and have the script run:
+
+```
+mount_truecrypt
+```
+
+Here's how we can do this:
+
+```
+# Syntax of doing so:
+
+sudo ln <script location/script name> /usr/local/bin/<name you want to type to launch the script>
+
+# Realistic example:
+
+sudo ln /home/<user>/lazyGit.sh /usr/local/bin/mount_truecrypt
+```
