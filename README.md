@@ -1,30 +1,42 @@
 Purpose
 ===
 
-The purpose of this script is to make mounting truecrypt
-containers simpler and easier. 
+The purpose of this script is to make mounting truecrypt containers simpler and easier. 
 
-While there is TrueCrypt and VeraCrypt GUI programs that
-will fulfill this, those who prefer to maintain a light 
-system may prefer a script instead or merely prefer a 
-simple solution to a simple job.
+While there is TrueCrypt and VeraCrypt GUI programs that will fulfill this, those who prefer to maintain a 
+light system may prefer a script instead or merely prefer a simple solution to a simple job.
+
+Pictures
+===
+
+![daulton.ca](https://daulton.ca//lib/plugins/ckgedit/fckeditor/userfiles/image/bash_script_pictures/truecrypt.png)
 
 How to use 
 ===
 
-**Do the following;**
+- Lets get the source
 
-  - This will make the script readable, writable, and executable to root and your user. Next, open the script in your text editor of choice.
+```
+git clone https://gitlab.com/huuteml/mount_truecrypt.git && cd mount_truecrypt
+```
 
+- This will make the script readable, writable, and executable to root and your user. Next, open the script in your text editor of choice.
+
+```
 sudo chmod 770 mount_truecrypt.sh 
+```
 
- - You need to edit the variables in the highlighted variables section near the top.
+- You need to edit the variables in the highlighted variables section near the top.
 
+```
 gedit mount_truecrypt.sh
+```
 
 - Next, you will want to make sure you've saved and then launch the script by doing the following;
 
+```
 sudo bash mount_truecrypt.sh 
+```
 
 > **Notices:**
 > 
@@ -35,7 +47,7 @@ Additionally here is how you can add the script to be globally callable from any
 since you can merely type something such as the following and have the script run:
 
 ```
-mount_truecrypt
+sudo mount_truecrypt
 ```
 
 Here's how we can do this:
