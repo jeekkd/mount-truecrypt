@@ -9,7 +9,7 @@ light system may prefer a script instead or merely prefer a simple solution to a
 Pictures
 ===
 
-![daulton.ca](https://daulton.ca//lib/plugins/ckgedit/fckeditor/userfiles/image/bash_script_pictures/truecrypt.png)
+![daulton.ca](https://daulton.ca/lib/exe/fetch.php/bash_script_pictures:truecrypt.png?cache=)
 
 How to use 
 ===
@@ -17,7 +17,7 @@ How to use
 - Lets get the source
 
 ```
-git clone https://gitlab.com/huuteml/mount_truecrypt.git && cd mount_truecrypt
+git clone https://github.com/jeekkd/mount-truecrypt.git && cd mount-truecrypt
 ```
 
 - This will make the script readable, writable, and executable to root and your user. Next, open the script in your text editor of choice.
