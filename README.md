@@ -9,7 +9,7 @@ light system may prefer a script instead or merely prefer a simple solution to a
 Pictures
 ===
 
-![daulton.ca](https://daulton.ca/lib/exe/fetch.php?cache=&media=bash_script_pictures:truecrypt.png)
+![daulton.ca](https://daulton.ca/images/bash-script-screenshots/truecrypt.png)
 
 How to use 
 ===
